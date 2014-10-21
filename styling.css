@@ -24,11 +24,10 @@ ul{
 
 .navbar{
 	color: white;
-	margin-right: 50px; 
+	margin-right: 2em; 
 }
 
 .navbar ul{
-	display: inline-block;
 	float: right;
 }
 
@@ -36,6 +35,11 @@ ul{
 	margin: 0 50px;
 	letter-spacing: 0.05em;
 	font-size: 1em;
+}
+
+.navbar li{
+	display: inline-block;
+	margin-left: 0.5em;
 }
 
 .navbar li:hover{
