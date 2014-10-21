@@ -8,7 +8,8 @@ header{
 	background-color: #86939f;
 	width: 100%;
 	height: 3em;
-	margin-bottom: 1.5em;
+	position: fixed;
+	opacity: 0.9;
 }
 
 h1{
@@ -21,11 +22,31 @@ ul{
 	list-style: none;
 }
 
+.navbar{
+	color: white;
+	margin-right: 50px; 
+}
+
+.navbar ul{
+	display: inline-block;
+	float: right;
+}
+
+.navbar .exit{
+	margin: 0 50px;
+	letter-spacing: 0.05em;
+	font-size: 1em;
+}
+
+.navbar li:hover{
+	color: #fff200;
+}
+
 .sidebar{
 	width: 16.875em;
 	position: fixed;
 	background-color: #4c4e4d;
-	margin: 1.5em;
+	margin: 6em 1.5em;
 }
 
 .sidebar .topic{
@@ -43,10 +64,11 @@ ul{
 
 .sidebar .list{
 	overflow-y: auto;
-	height: 300px;
 }
 
 .sidebar .arrows{
 	text-align: center;
 	color: white;
+	font-size: 12px;
+	line-height: 80%;
 }
