@@ -45,3 +45,8 @@ ul{
 	overflow-y: auto;
 	height: 300px;
 }
+
+.sidebar .arrows{
+	text-align: center;
+	color: white;
+}
