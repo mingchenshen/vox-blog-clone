@@ -80,7 +80,6 @@ ul{
 }
 
 .content{
-	/*width: 57.7%;*/
 	max-width: 1000px;
 	background-color: white;
 	margin-top: 6rem;
@@ -109,11 +108,22 @@ ul{
 }
 
 .pagenav .left{
-	text-align: left;
+	float: left;
+	margin-left: 0.5em;
 }
 
 .pagenav .right{
-	text-align: right;
+	float: right;
+	margin-right: 0.5em;
+}
+
+.pagenav a{
+	text-decoration: none;
+	color: grey;
+}
+
+.arrows{
+	font-size: 18px;
 }
 
 @media all and (max-width: 768px){
