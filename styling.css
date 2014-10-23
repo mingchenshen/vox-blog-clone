@@ -32,14 +32,15 @@ ul{
 }
 
 .navbar .exit{
-	margin: 0 50px;
+	margin-right: 2em;
+	margin-left: 1.2em;
 	letter-spacing: 0.05em;
 	font-size: 1em;
 }
 
 .navbar li{
 	display: inline-block;
-	margin-left: 0.5em;
+	margin-left: 0.8em;
 }
 
 .navbar li:hover{
@@ -48,9 +49,10 @@ ul{
 
 .sidebar{
 	width: 16.875em;
-	position: fixed;
+	/*position: fixed;*/
 	background-color: #4c4e4d;
-	margin: 6em 1.5em;
+	margin: 6rem 1.5rem;
+	float: left;
 }
 
 .sidebar .topic{
@@ -75,4 +77,52 @@ ul{
 	color: white;
 	font-size: 12px;
 	line-height: 80%;
+}
+
+.content{
+	/*width: 57.7%;*/
+	max-width: 1000px;
+	background-color: white;
+	margin-top: 6rem;
+	font-size: 15px;
+}
+
+.content p{
+	padding: 0em 4rem;
+	color: grey;
+}
+
+.content p:last-child{
+	padding-bottom: 4rem;
+}
+
+.content h1{
+	padding: 3em 0 0 4rem;
+}
+
+.pagenav{
+	background-color: #fff200;
+	text-align: center;
+	line-height: 200%;
+	font-size: 14px;
+	color: grey;
+}
+
+.pagenav .left{
+	text-align: left;
+}
+
+.pagenav .right{
+	text-align: right;
+}
+
+@media all and (max-width: 768px){
+	.content{
+		margin: 1em 0;
+	}
+	.sidebar{
+		width: 100%;
+		margin: 3em 0 0 0;
+		float: left;
+	}
 }
